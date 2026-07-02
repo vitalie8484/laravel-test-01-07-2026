@@ -51,7 +51,7 @@
         ],
         "dev": [
             "Composer\\Config::disableProcessTimeout",
-            "@php artisan dev"
+            "@php -r \"exec('vendor/bin/sail artisan dev & vendor/bin/sail artisan queue:listen');\""
         ],
         "lint": [
             "pint --parallel"
