@@ -24,7 +24,7 @@
             </div>
 
             <div class="space-y-2">
-                <h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl bg-gradient-to-r from-zinc-50 via-zinc-200 to-zinc-400 bg-clip-text text-transparent">
+                <h1 class="text-4xl font-extrabold tracking-tight sm:text-5xl bg-linear-to-r from-zinc-50 via-zinc-200 to-zinc-400 bg-clip-text text-transparent">
                     Alex Morgan
                 </h1>
                 <p class="text-lg font-medium text-indigo-400">
