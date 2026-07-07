@@ -49,9 +49,9 @@
             "npm install",
             "npm run build"
         ],
-        "dev": [
+        "start-dev": [
             "Composer\\Config::disableProcessTimeout",
-            "@php artisan dev"
+            "npx concurrently -c \"#93c5fd,#c4b5fd\" --names=vite,queue --kill-others-on-fail \"php artisan dev\" \"php artisan queue:listen --queue=default\""
         ],
         "lint": [
             "pint --parallel"
